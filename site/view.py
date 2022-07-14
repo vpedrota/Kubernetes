@@ -3,6 +3,8 @@ import os
 
 app = Flask(__name__)
 
+def returnFive():
+    return 5
 
 @app.route('/')
 def home():
