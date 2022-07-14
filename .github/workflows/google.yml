@@ -46,7 +46,7 @@ jobs:
       uses: 'google-github-actions/auth@v0'
       with:
         token_format: 'access_token'
-        workload_identity_provider: 'projects/762575221710/locations/global/workloadIdentityPools/kubernetes-pool'
+        workload_identity_provider: 'projects/762575221710/locations/global/workloadIdentityPools/kubernetes-pool/providers/kubernetes-provider'
         service_account: 'kubernetes-service-account@testproject-354013.iam.gserviceaccount.com'
 
     # Alternative option - authentication via credentials json
