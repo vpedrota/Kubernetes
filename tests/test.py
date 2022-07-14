@@ -1,4 +1,4 @@
-import site.view
+import site
 
 def inc(x):
     return x + 1
