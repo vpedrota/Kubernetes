@@ -1,3 +1,5 @@
+import site.view
+
 def inc(x):
     return x + 1
 
