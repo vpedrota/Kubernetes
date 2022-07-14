@@ -18,6 +18,4 @@ ENV SHA=$GITHUB_SHA
 ENV REF=$GITHUB_REF
 
 
-ENTRYPOINT [ "python" ]
-
-CMD ["view.py" ]
+CMD [ "python", "view.py" ]
