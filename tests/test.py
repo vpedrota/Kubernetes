@@ -1,4 +1,4 @@
-import site
+from site import view
 
 def test_answer():
-    assert view.returnFive() == 5
+    assert returnFive() == 5
