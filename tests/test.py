@@ -1,4 +1,4 @@
 import view
 
 def test_answer():
-    assert returnFive() == 5
+    assert view.returnFive() == 5
